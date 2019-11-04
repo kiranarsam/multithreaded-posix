@@ -12,9 +12,9 @@ generate a request and handle request through multiple threads and synchronizati
 Linux machine or cygwin having with gcc or g++ compiler.
 
 # To compile and execute
-gcc -lpthread <all files which are dependent>.c -o <executable file name>
+gcc -lpthread "include_all_files_which_are_dependent".c -o "executable_file_name"
 
-Example: 
-(compile) ==> gcc -lpthread main.c
+# Example: 
+(compile) ==> gcc -lpthread main.c   ---> "once executed this command, check for a.exe file"
 (execute) ==> ./a.exe
 
